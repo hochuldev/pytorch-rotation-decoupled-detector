@@ -95,7 +95,7 @@ if __name__ == '__main__':
     # (2) crop images
     # (3) generate image-set files
 
-    dir_dataset = '<replace with your local path>'
+    dir_dataset = '/root/pytorch-rotation-decoupled-detector'
 
     main('train')
     main('val')

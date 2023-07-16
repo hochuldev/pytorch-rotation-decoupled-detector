@@ -129,8 +129,8 @@ if __name__ == '__main__':
     device_ids = [0]
     torch.cuda.set_device(device_ids[0])
 
-    dir_dataset = '<replace with your local path>'
-    dir_save = '<replace with your local path>'
+    dir_dataset = '/root/pytorch-rotation-decoupled-detector'
+    dir_save = '/root/pytorch-rotation-decoupled-detector/save'
 
     backbone = resnet.resnet101
     checkpoint = None
