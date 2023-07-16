@@ -10,6 +10,6 @@ git clone https://github.com/circulosmeos/gdown.pl.git
 
 ./setup_weights.sh
 
-pip install -r pytorch-rotation-decoupled-detector/requirements.txt
+pip install -r pytorch-rotation-decoupled-detector/requirement.txt
 
-python3.8 pytorch-rotation-decoupled-detector/utils/box/ext/rbbox_overlap_gpu setup.py build_ext --inplace
+python3.8 pytorch-rotation-decoupled-detector/utils/box/ext/rbbox_overlap_gpu/setup.py build_ext --inplace
