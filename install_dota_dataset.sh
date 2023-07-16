@@ -23,17 +23,16 @@ unzip pytorch-rotation-decoupled-detector/images/train/part1.zip -d pytorch-rota
 unzip pytorch-rotation-decoupled-detector/images/train/part2.zip -d pytorch-rotation-decoupled-detector/images/train/images2
 unzip pytorch-rotation-decoupled-detector/images/train/part3.zip -d pytorch-rotation-decoupled-detector/images/train/images3
 
-#TODO: images1, images2, images3 안에 사진이 바로 들어간다고 가정한다. images1안에 폴더가 더 있을수도 있으니까 추후 수정.
-mv pytorch-rotation-decoupled-detector/images/train/images1/* pytorch-rotation-decoupled-detector/images/train/ 
-mv pytorch-rotation-decoupled-detector/images/train/images2/* pytorch-rotation-decoupled-detector/images/train/
-mv pytorch-rotation-decoupled-detector/images/train/images3/* pytorch-rotation-decoupled-detector/images/train/
+mv pytorch-rotation-decoupled-detector/images/train/images1/images/* pytorch-rotation-decoupled-detector/images/train/ 
+mv pytorch-rotation-decoupled-detector/images/train/images2/images/* pytorch-rotation-decoupled-detector/images/train/
+mv pytorch-rotation-decoupled-detector/images/train/images3/images/* pytorch-rotation-decoupled-detector/images/train/
 
-#TODO: 위 TODO와 동일
 unzip pytorch-rotation-decoupled-detector/images/val/part1.zip -d pytorch-rotation-decoupled-detector/images/val/
+mv pytorch-rotation-decoupled-detector/images/val/images/* pytorch-rotation-decoupled-detector/images/
 
-#TODO: 이것도 위 TODO와 유사.
 unzip pytorch-rotation-decoupled-detector/labelTxt/train/labelv1_0.zip -d pytorch-rotation-decoupled-detector/labelTxt/train
 unzip pytorch-rotation-decoupled-detector/labelTxt/val/labelv1_0.zip -d pytorch-rotation-decoupled-detector/labelTxt/val
 
 rm -rf pytorch-rotation-decoupled-detector/images/train/images1 pytorch-rotation-decoupled-detector/images/train/images2 pytorch-rotation-decoupled-detector/images/train/images3
+rm -rf pytorch-rotation-decoupled-detector/images/val/images/
 rm -rf pytorch-rotation-decoupled-detector/labelTxt/train/labelv1_0.zip pytorch-rotation-decoupled-detector/labelTxt/val/labelv1_0.zip
