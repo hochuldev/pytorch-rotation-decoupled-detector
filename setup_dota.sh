@@ -3,6 +3,7 @@
 apt-get update
 apt-get install python3-pip
 apt-get install unzip
+apt-get install vim
 
 git clone https://github.com/circulosmeos/gdown.pl.git
 
