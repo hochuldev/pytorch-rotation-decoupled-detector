@@ -4,6 +4,4 @@ pillow
 cython
 beautifulsoup4
 opencv-python
-pytorch>=1.2
-torchvision>=0.4
 tensorboard>=2.2
